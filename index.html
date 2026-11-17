@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>프로젝트 모음 · fast-campus-vibe-coding-monetization</title>
+<meta name="description" content="바이브코딩 실습 결과물 모음 — 2027 신년운세 사주 리포트, 취미 추천 페이지">
+<style>
+  :root{
+    --bg:#0b0f19; --panel:#141b2b; --line:#243049; --gold:#d9b36a; --gold-soft:#f0d8a4;
+    --text:#eef2f9; --muted:#96a2ba;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; background:
+      radial-gradient(1100px 620px at 12% -8%, #1b2440 0%, transparent 62%),
+      radial-gradient(900px 520px at 92% 8%, #2a1f36 0%, transparent 58%),
+      var(--bg);
+    color:var(--text);
+    font-family:Pretendard,"Pretendard Variable",-apple-system,BlinkMacSystemFont,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:780px;margin:0 auto;padding:clamp(28px,7vw,72px) 20px 64px}
+  .eyebrow{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(217,179,106,.34);border-radius:999px;padding:6px 12px}
+  h1{font-size:clamp(26px,6vw,38px);line-height:1.28;letter-spacing:-.02em;margin:18px 0 10px;font-weight:800}
+  h1 em{font-style:normal;color:var(--gold-soft)}
+  p.lede{margin:0 0 34px;color:var(--muted);font-size:15px;line-height:1.72}
+  .grid{display:grid;gap:14px}
+  @media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+  a.card{
+    display:flex;flex-direction:column;gap:8px;padding:20px 20px 18px;background:var(--panel);
+    border:1px solid var(--line);border-radius:16px;text-decoration:none;color:inherit;
+    transition:transform .18s ease,border-color .18s ease,background .18s ease;
+  }
+  a.card:hover{transform:translateY(-2px);border-color:rgba(217,179,106,.55);background:#172033}
+  a.card:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .tag{font-size:11px;letter-spacing:.08em;color:var(--gold);text-transform:uppercase}
+  .title{font-size:17px;font-weight:700;letter-spacing:-.01em}
+  .desc{font-size:13px;color:var(--muted);line-height:1.65}
+  .go{margin-top:6px;font-size:13px;font-weight:600;color:var(--gold-soft)}
+  footer .wrap{padding-top:0;color:#6f7d96;font-size:12px;line-height:1.7}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <span class="eyebrow">Vibe Coding Projects</span>
+  <h1>바이브코딩 <em>결과물 모음</em></h1>
+  <p class="lede">패스트캠퍼스 바이브코딩 수익화 과정에서 만든 페이지들입니다. 빌드 도구 없이 정적 파일만으로 동작합니다.</p>
+
+  <div class="grid">
+    <a class="card" href="saju-2027/">
+      <span class="tag">신규 · 2027</span>
+      <span class="title">2027 정미년 신년운세 사주 리포트</span>
+      <span class="desc">생년월일시로 사주 원국·오행 밸런스·2027 재물·취업 운세와 12개월 로드맵을 뽑아 주는 웹앱.</span>
+      <span class="go">열기 →</span>
+    </a>
+    <a class="card" href="hobby-recommand.html">
+      <span class="tag">실습</span>
+      <span class="title">취미 추천 페이지</span>
+      <span class="desc">수익화 아이디어 실습으로 만든 취미 추천 단일 페이지.</span>
+      <span class="go">열기 →</span>
+    </a>
+  </div>
+</main>
+<footer><div class="wrap">GitHub Pages · <a href="https://github.com/spartajaden/fast-campus-vibe-coding-monetization" style="color:#8f9db8">저장소 보기</a></div></footer>
+</body>
+</html>

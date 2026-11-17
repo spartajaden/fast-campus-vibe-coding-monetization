@@ -109,3 +109,16 @@ python3 tools/check_terms.py    # → 24절기 발표값 대조
 - `docs/screenshots/saju_2027_card.png` — 결과 카드 미리보기
 - `docs/screenshots/saju_2027_result_v2.png` — v2 리포트 전체 (히어로 총평·대운 타임라인·개운 처방 포함)
 - `docs/screenshots/saju_2027_mobile_v2.png` — v2 모바일 결과 화면
+
+## 배포 (GitHub Pages)
+
+- 라이브: <https://spartajaden.github.io/fast-campus-vibe-coding-monetization/saju-2027/>
+- 저장소: <https://github.com/spartajaden/fast-campus-vibe-coding-monetization> (`saju-2027/` 폴더)
+- Pages 게시 소스는 **`gh-pages` 브랜치(루트)** 입니다. 사이트를 갱신하려면 `main`에 커밋한 뒤 `gh-pages`도 같은 상태로 올려 주세요.
+
+```bash
+git push origin main
+git push origin main:gh-pages
+```
+
+모든 자원 경로는 상대 경로(`assets/…`)라서 하위 경로(`/fast-campus-vibe-coding-monetization/saju-2027/`)에서도 그대로 동작합니다.
